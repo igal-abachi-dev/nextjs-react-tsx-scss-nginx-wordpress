@@ -40,7 +40,7 @@ npm i swr
 
 
 ## deploy site to free/fast static hosting: 
-google Firebase  vs github pages vs zeit now.sh
+zeit now.sh / google Firebase  / github pages 
 
 (netlify? /surge? probably slower...)
 
