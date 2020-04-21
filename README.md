@@ -42,6 +42,7 @@ npm i swr
 
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
+
 (surge.sh with git hooks , probably slower perf... then now.sh/firebase)
 
 ## host headless wordpress REST API  
