@@ -51,9 +51,15 @@ on vultr hfc cloud [6$/month cheap]
 
 or on best managed wordpress hosting: kinsta [30$/month]
 
-(better then wp-engine, cloudways(vultr) , costs more but very optimized & simple to manage)
+(better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
+
+but vultr hfc[24$/month] outperforms kinsta[might be used with cloudways]
+which need to be configured carefully and optimally 
 
 so best to put wordpress rest api on kista , and next.js UI on now.sh
+
+
+
 
 then:
 [use elementor json from wordpress api,in widget translator to html on static site]
