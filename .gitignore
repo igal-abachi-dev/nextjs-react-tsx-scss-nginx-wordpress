@@ -28,3 +28,17 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+/.idea
+/nginx/temp
+/nginx/contrib
+/nginx/docs
+/nginx/html
+/nginx/logs
+/nginx/nginx.exe
+/nginx/conf/koi-utf
+/nginx/conf/koi-win
+/nginx/conf/scgi_params
+/nginx/conf/uwsgi_params
+/nginx/conf/win-utf
+/nginx/conf/fastcgi.conf
+/nginx/conf/fastcgi_params
