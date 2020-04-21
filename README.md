@@ -1,13 +1,61 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
+
+
+## Next.js react with typesciprt tsx , scss style modules, for static use in nginx integrated with headless wordpress api[+elementor static rendering]
+[igal abachi - יגאל אבאצ'י]
+
+
+
+
+## 1) create next.js proj:
+npm init next-app my-blog
+(Default starter app)
+
+
+## 2) output to nginx static web site instead of node.js ssr:
+package.json:
+"scripts": {
+  "build": "next build && next export"
+}
+
+## 3) styling .scss / .module.scss file support:
+npm install sass
+
+## 4) typescript .tsx file support:
+npm install --save-dev typescript @types/react @types/node
+create empty tsconfig.json file
+then: npm run dev
+
+## 5) http REST:
+npm i axios
+npm i swr
+
+
+
+## deploy site to free/fast static hosting: 
+google Firebase  vs github pages vs zeit now.sh
+(netlify? /surge? probably slower...)
+
+## host headless wordpress REST API  
+on vultr hfc cloud  / on managed wordpress hosting: kinsta (better then wp-engine)
+
+then:
+[use elementor json from wordpress api,in widget translator to html on static site]
+
+or use other headless cms like butterCMS / strapi.io / prismic / ghost
+that doesn't have visual web page editor
+
+
+
+
+
 ## Getting Started
 
-First, run the development server:
+First, run the nginx server:
 
-```bash
-npm run dev
-# or
-yarn dev
+```
+see "nginx\conf\vhosts\localhost.conf"
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -25,6 +73,7 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 ## Deploy on ZEIT Now
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the 
+[ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
