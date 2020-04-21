@@ -8,7 +8,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-## 1) create next.js proj:
+steps 1-5 were already done:
+## 1) create next.js proj: 
 npm init next-app my-blog
 (Default starter app)
 
