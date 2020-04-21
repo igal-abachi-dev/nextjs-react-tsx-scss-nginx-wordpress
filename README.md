@@ -15,8 +15,11 @@ npm init next-app my-blog
 
 ## 2) output to nginx static web site instead of node.js ssr:
 package.json:
+
 "scripts": {
+
   "build": "next build && next export"
+  
 }
 
 ## 3) styling .scss / .module.scss file support:
@@ -26,16 +29,19 @@ npm install sass
 npm install --save-dev typescript @types/react @types/node
 
 create empty tsconfig.json file
+
 then: npm run dev
 
 ## 5) http REST:
 npm i axios
+
 npm i swr
 
 
 
 ## deploy site to free/fast static hosting: 
 google Firebase  vs github pages vs zeit now.sh
+
 (netlify? /surge? probably slower...)
 
 ## host headless wordpress REST API  
@@ -45,6 +51,7 @@ then:
 [use elementor json from wordpress api,in widget translator to html on static site]
 
 or use other headless cms like butterCMS / strapi.io / prismic / ghost
+
 that doesn't have visual web page editor
 
 
