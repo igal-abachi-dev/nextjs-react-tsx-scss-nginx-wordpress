@@ -54,10 +54,22 @@ or use other headless cms like butterCMS / strapi.io / prismic / ghost
 
 that doesn't have visual web page editor
 
-then it can by connected to https://www.bigcommerce.com/ or https://github.com/helloiamelliot/elliot-serverless-ecommerce
+then it can by connected to 
+
+https://www.bigcommerce.com/ 
+
+or https://github.com/helloiamelliot/elliot-serverless-ecommerce
 
 
+## add domain & https (let's Encrypt / PositiveSSL)
+.com:
+https://www.namecheap.com/domains/
 
+.xyz:
+https://gen.xyz/register
+
+.co.il:
+https://jetserver.co.il/%D7%A8%D7%99%D7%A9%D7%95%D7%9D-%D7%93%D7%95%D7%9E%D7%99%D7%99%D7%9F
 
 ## Getting Started
 
