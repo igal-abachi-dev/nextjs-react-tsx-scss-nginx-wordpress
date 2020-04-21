@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ## Next.js react with typesciprt tsx , scss style modules, for static use in nginx integrated with headless wordpress api[+elementor static rendering]
-[igal abachi - יגאל אבאצ'י]
+[ igal abachi - יגאל אבאצ'י ]
 
 
 
@@ -24,6 +24,7 @@ npm install sass
 
 ## 4) typescript .tsx file support:
 npm install --save-dev typescript @types/react @types/node
+
 create empty tsconfig.json file
 then: npm run dev
 
