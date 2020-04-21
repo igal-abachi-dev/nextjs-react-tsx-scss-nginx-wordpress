@@ -46,7 +46,8 @@ zeit now.sh / google Firebase , free & fast
 (surge.sh with git hooks , probably slower perf... then now.sh/firebase)
 
 ## host headless wordpress REST API  
-on vultr hfc cloud  / on managed wordpress hosting: kinsta (better then wp-engine)
+on vultr hfc cloud [6$/month cheap]  
+or on best managed wordpress hosting: kinsta [30$/month](better then wp-engine, vultr , costs more but very optimized)
 
 then:
 [use elementor json from wordpress api,in widget translator to html on static site]
