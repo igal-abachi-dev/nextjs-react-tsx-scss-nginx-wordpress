@@ -41,9 +41,8 @@ npm i swr
 
 
 ## deploy site to free/fast static hosting: 
-zeit now.sh / google Firebase  / github pages 
-
-(netlify? /surge? probably slower...)
+zeit now.sh / google Firebase , free & fast
+(surge.sh with git hooks , probably slower perf... then now.sh/firebase)
 
 ## host headless wordpress REST API  
 on vultr hfc cloud  / on managed wordpress hosting: kinsta (better then wp-engine)
