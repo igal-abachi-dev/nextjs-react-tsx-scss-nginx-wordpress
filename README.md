@@ -54,6 +54,7 @@ or use other headless cms like butterCMS / strapi.io / prismic / ghost
 
 that doesn't have visual web page editor
 
+then it can by connected to https://www.bigcommerce.com/ or https://github.com/helloiamelliot/elliot-serverless-ecommerce
 
 
 
