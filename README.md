@@ -41,12 +41,25 @@ npm i swr
 
 
 ## deploy site to free/fast static hosting: 
-zeit now.sh / google Firebase  / github pages 
+zeit now.sh / google Firebase , free & fast
 
-(netlify? /surge? probably slower...)
+(surge.sh with git hooks , probably slower perf... then now.sh/firebase)
 
 ## host headless wordpress REST API  
-on vultr hfc cloud  / on managed wordpress hosting: kinsta (better then wp-engine)
+on vultr hfc cloud [6$/month cheap]  
+
+
+or on best managed wordpress hosting: kinsta [30$/month]
+
+(better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
+
+but vultr hfc[24$/month] outperforms kinsta[might be used with cloudways]
+which need to be configured carefully and optimally 
+
+so best to put wordpress rest api on kista , and next.js UI on now.sh
+
+
+
 
 then:
 [use elementor json from wordpress api,in widget translator to html on static site]
