@@ -40,7 +40,7 @@ npm i swr
 
 ## 6) use mobx-state-tree , eventemitter3
 npm i eventemitter3
-
+https://github.com/zeit/next.js/tree/master/examples/with-mobx-state-tree
 
 
 ## deploy site to free/fast static hosting: 
