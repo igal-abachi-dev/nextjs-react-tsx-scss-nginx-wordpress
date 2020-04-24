@@ -40,6 +40,7 @@ npm i swr
 
 ## 6) use mobx-state-tree , eventemitter3
 npm i eventemitter3
+npm i --save-dev @babel/plugin-proposal-decorators
 https://github.com/zeit/next.js/tree/master/examples/with-mobx-state-tree
 
 
