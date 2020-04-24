@@ -38,6 +38,9 @@ npm i axios
 
 npm i swr
 
+## 6) use mobx-state-tree , eventemitter3
+npm i eventemitter3
+
 
 
 ## deploy site to free/fast static hosting: 
