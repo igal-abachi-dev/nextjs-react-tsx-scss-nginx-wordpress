@@ -42,7 +42,7 @@ npm i swr
 npm i eventemitter3
 npm i --save-dev @babel/plugin-proposal-decorators
 https://github.com/zeit/next.js/tree/master/examples/with-mobx-state-tree
-
+https://github.com/fadiquader/next.js-mst/tree/master/stores
 
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
