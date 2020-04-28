@@ -63,6 +63,43 @@ ant design
 
 https://ant.design/docs/react/introduce
 
+## more controls & plugins
+
+react-perfect-scrollbar
+
+font awesome
+
+slick carousel
+
+i18next + react-i18next
+
+msgpack-lite
+
+lodash
+
+ag-grid-community + ag-grid-react
+
+brotli
+
+classnames
+
+dexie
+
+dompurify
+
+dotenv + dotenv-expand
+
+react-popper + tippy
+
+
+filepond + react-filepond
+
+moment
+
+react-quill (+ quill-delta + katex + highlight.js + react-highlight)
+
+v8n
+
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
