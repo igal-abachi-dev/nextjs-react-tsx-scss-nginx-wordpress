@@ -59,6 +59,10 @@ react-bootstrap
 
 https://github.com/react-bootstrap/react-bootstrap
 
+
+npm install react-bootstrap bootstrap
+
+
 ant design
 
 https://ant.design/docs/react/introduce
