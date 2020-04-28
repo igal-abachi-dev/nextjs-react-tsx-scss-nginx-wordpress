@@ -125,6 +125,10 @@ Enzyme.configure({ adapter: new Adapter() });
 
 https://medium.com/@kjaer/setting-up-jest-and-enzyme-for-typescript-next-js-apps-ce383167643
 
+
+debugging:
+https://dev.to/vvo/5-steps-to-debugging-next-js-node-js-from-vscode-or-chrome-devtools-497o
+
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
