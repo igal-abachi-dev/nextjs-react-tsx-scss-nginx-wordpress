@@ -8,7 +8,7 @@ export default class extends Document {
 	// }
 
 	render() {
-		return (   
+		return (
 			<html lang="en" dir='ltr'>
 				<Head>
 					{/*<meta charset="utf-8" />*/}
