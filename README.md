@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-## Next.js react with typesciprt tsx , scss style modules, for static use in nginx integrated with headless wordpress api[+elementor static rendering]
+## Next.js react with typesciprt tsx , scss style modules, supports PWA , for static use in nginx integrated with headless wordpress api[+elementor static rendering]
+
+
 [ igal abachi - יגאל אבאצ'י ]
 
 
