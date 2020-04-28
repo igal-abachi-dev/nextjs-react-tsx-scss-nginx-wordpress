@@ -48,7 +48,10 @@ https://github.com/zeit/next.js/tree/master/examples/with-mobx-state-tree
 
 https://github.com/fadiquader/next.js-mst/tree/master/stores
 
-markdown pages: https://jekyllrb.com/
+markdown pages:
+
+https://jekyllrb.com/
+
 jekyll build markdown folder -> static page 
 
 
