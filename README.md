@@ -71,6 +71,8 @@ https://ant.design/docs/react/introduce
 
 react-perfect-scrollbar
 
+d3
+
 font awesome
 
 slick carousel
