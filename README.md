@@ -52,7 +52,7 @@ markdown pages:
 
 https://jekyllrb.com/
 
-jekyll build markdown folder -> static page 
+jekyll build , markdown folder -> static pages 
 
 
 ## deploy site to free/fast static hosting: 
