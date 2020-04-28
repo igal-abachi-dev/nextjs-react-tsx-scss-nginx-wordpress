@@ -54,6 +54,14 @@ https://jekyllrb.com/
 
 jekyll build , markdown folder -> static pages 
 
+## UI controls:
+react-bootstrap
+
+https://github.com/react-bootstrap/react-bootstrap
+
+ant design
+
+https://ant.design/docs/react/introduce
 
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
