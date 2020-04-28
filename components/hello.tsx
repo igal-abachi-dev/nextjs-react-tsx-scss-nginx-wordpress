@@ -48,11 +48,12 @@ export default function Hello() {
 //         });
 //     };
 //
+//  myDiv:HTMLElement = null;
 //     render() {
 //         //const {a} = this.props;
 //
 //         return (
-//             <div>
+//             <div ref={el => this.myDiv = el}>
 //                 {this.state.val}
 //                 {this.props.a}
 //             </div>
