@@ -100,6 +100,20 @@ react-quill (+ quill-delta + katex + highlight.js + react-highlight)
 
 v8n
 
+## testing
+npm install — save-dev jest enzyme enzyme-adapter-react-16
+
+npm install — save-dev @types/jest @types/enzym @types/enzyme-adapter-react-16
+
+import Enzyme from 'enzyme';
+
+import Adapter from 'enzyme-adapter-react-16';
+
+// Configure Enzyme with React 16 adapter
+Enzyme.configure({ adapter: new Adapter() });
+
+https://medium.com/@kjaer/setting-up-jest-and-enzyme-for-typescript-next-js-apps-ce383167643
+
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
