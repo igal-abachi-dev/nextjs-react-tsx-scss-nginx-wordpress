@@ -8,11 +8,8 @@ export default class extends Document {
 	// }
 
 	render() {
-		return (      <html lang='en' dir='ltr'>
-			<Head>
-
-			</Head>
-			<html lang="en">
+		return (   
+			<html lang="en" dir='ltr'>
 				<Head>
 					{/*<meta charset="utf-8" />*/}
 					<meta http-equiv="X-UA-Compatible" content="IE=edge" />
