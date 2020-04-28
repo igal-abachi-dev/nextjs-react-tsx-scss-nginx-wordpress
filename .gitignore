@@ -11,12 +11,14 @@
 # next.js
 /.next/
 /out/
+!public/
 
 # production
 /build
 
 # misc
 .DS_Store
+.env*
 
 # debug
 npm-debug.log*
@@ -24,10 +26,13 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
+.env.build
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
 /.idea
 /nginx/temp
 /nginx/contrib

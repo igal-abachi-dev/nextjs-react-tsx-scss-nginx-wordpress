@@ -25,7 +25,7 @@ export default function About({posts}) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Create Next About</title>
+                <title>Create Next App: About</title>
                 <meta name="Description" content="Create Next About"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>

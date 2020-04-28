@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Create Next Home</title>
+                <title>Create Next App: Home</title>
                 <meta name="Description" content="Create Next Home"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
@@ -70,7 +70,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Powered by <img src="/zeit.svg" alt="ZEIT Logo"/>
+                    Powered by <img src="/vercel.svg" alt="ZEIT Logo"/>
                 </a>
             </div>
 
