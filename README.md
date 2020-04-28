@@ -67,6 +67,9 @@ ant design
 
 https://ant.design/docs/react/introduce
 
+## PWA
+https://github.com/shadowwalker/next-pwa
+
 ## more controls & plugins
 
 react-perfect-scrollbar
@@ -77,7 +80,7 @@ font awesome
 
 slick carousel
 
-i18next + react-i18next
+next-i18next + i18next + react-i18next
 
 msgpack-lite
 
