@@ -10,9 +10,19 @@ import React from 'react'
 
 //https://github.com/TalAter/UpUp/
 
+//https://github.com/ionic-team/ionic-pwa-demos/blob/master/ionicHN/www/worker.js
+
 //import {precaching} from 'workbox-precaching';
 //import {registerRoute} from 'workbox-routing';
 //import {BackgroundSyncPlugin} from 'workbox-background-sync';
+
+
+
+
+
+//import * as serviceWorker from './serviceWorker'; //https://github.com/johnnyreilly/pwa-react-typescript/blob/master/src/serviceWorker.ts
+//ReactDOM.render(<App />, document.getElementById('root'));
+//serviceWorker.register();
 
 
 const swDevRegistration =
