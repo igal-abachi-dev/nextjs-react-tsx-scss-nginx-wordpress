@@ -100,7 +100,7 @@ dompurify
 
 dotenv + dotenv-expand
 
-react-popper + tippy
+react-popper + tippy.js
 
 
 filepond + react-filepond
