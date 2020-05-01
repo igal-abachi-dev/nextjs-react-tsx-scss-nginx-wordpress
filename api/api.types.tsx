@@ -16,7 +16,7 @@ export interface post extends dto {
 }
 
 
-//https://github.com/wp-api/node-wpapi
+// https://github.com/wp-api/node-wpapi
 //
 // wp.posts()...: Request items from the /posts endpoints
 // wp.pages()...: Start a request for the /pages endpoints
@@ -34,8 +34,8 @@ export interface post extends dto {
 // wp.blocks()...: Create queries against the blocks endpoint
 
 
-//posts , pages ,categories, tags/types ...
-//get item / get items , page slug
+// posts , pages ,categories, tags/types ...
+// get item / get items , page slug
 
 
 export interface errorDetails {

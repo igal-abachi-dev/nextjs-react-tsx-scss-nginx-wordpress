@@ -25,7 +25,7 @@ class Error extends React.Component<{ statusCode: number }> {
   }
 
   render() {
-    return <Fragment>{this.getResponse(this.props.statusCode)}</Fragment>;
+    return <>{this.getResponse(this.props.statusCode)}</>;
   }
 }
 

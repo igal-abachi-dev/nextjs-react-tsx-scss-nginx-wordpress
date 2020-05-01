@@ -1,38 +1,38 @@
 import ReactGA from 'react-ga';
 
-const IS_BROWSER = typeof window !== "undefined";
+const IS_BROWSER = typeof window !== 'undefined';
 
 export const initGA = (code: string = 'UA-XXXXXXXXX'): any => {
-    if (IS_BROWSER && !(window as any).GA_INITIALIZED && code) {
-        ReactGA.initialize(code || 'UA-XXXXXXXXX');
-        (window as any).GA_INITIALIZED = true;
-    }
+  if (IS_BROWSER && !(window as any).GA_INITIALIZED && code) {
+    ReactGA.initialize(code || 'UA-XXXXXXXXX');
+    (window as any).GA_INITIALIZED = true;
+  }
 
-    //fluent
-    return {
-        logPageView: logPageView,
-        logEvent: logEvent,
-        logException: logException
-    }
+  // fluent
+  return {
+    logPageView,
+    logEvent,
+    logException,
+  };
 };
 
 export const logPageView = () => {
-    ReactGA.set({page: window.location.pathname});
-    //
-    ReactGA.pageview(window.location.pathname + window.location.search);
-    //ReactGA.pageview(window.location.pathname );
+  ReactGA.set({ page: window.location.pathname });
+  //
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  // ReactGA.pageview(window.location.pathname );
 };
 
 export const logEvent = (category = '', action = '') => {
-    if (category && action) {
-        ReactGA.event({category, action});
-    }
+  if (category && action) {
+    ReactGA.event({ category, action });
+  }
 };
 
 export const logException = (description = '', fatal = false) => {
-    if (description) {
-        ReactGA.exception({description, fatal});
-    }
+  if (description) {
+    ReactGA.exception({ description, fatal });
+  }
 };
 /*
 functional component:
@@ -48,7 +48,7 @@ const AppIndex = () => {
 */
 
 
-//newer gtag api instead of ga: [doesn't work with ssr , only export/ssg]
-//https://github.com/zeit/next.js/tree/canary/packages/next-plugin-google-analytics/src
+// newer gtag api instead of ga: [doesn't work with ssr , only export/ssg]
+// https://github.com/zeit/next.js/tree/canary/packages/next-plugin-google-analytics/src
 
-//https://github.com/zeit/next.js/issues/6665
+// https://github.com/zeit/next.js/issues/6665
