@@ -33,7 +33,7 @@ export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): 
   if (error != null) return <li>failed to load</li>; // x icon
   if (data == null) return <li>loading...</li>;// spinner circle
   if (renderer) { return renderer(data); }
-  return null; '';
+  return null;
 };
 
 
@@ -82,14 +82,14 @@ function handler(cb: any, res: any, sendError = false, logoutOnAnyError = false)
         cb(data, err);
       }
     } catch (e2) { // 401 or islogin error , then store.logout()
-      if (res.status == 401 && _logoutCallback != null) { // also 403?
+      if (res.status === 401 && _logoutCallback != null) { // also 403?
         _logoutCallback(false);// also token expired , handling , (long debug breakpoint)/(server private key changed  on restart)
       }
       console.error(`response handler error: ${e2}`);
     }
     // });
   } catch (e) { // 401 or islogin error , then store.logout()
-    if (res.status == 401 && _logoutCallback != null) {
+    if (res.status === 401 && _logoutCallback != null) {
       _logoutCallback(false);// also token expired , handling , (long debug breakpoint)/(server private key changed  on restart)
     }
     console.error(`response handler error: ${e}`);
@@ -121,13 +121,14 @@ export const _api_get = function _api_get(api: string, qparams: string, cb: any)
     })
       .catch((err) => {
         console.error(`${api}: ${err || 'Error'}`);
-        if (err.status == 401 && _logoutCallback != null) { // err.status == 401
+        if (err.status === 401 && _logoutCallback != null) { // err.status == 401
           _logoutCallback(false); // only logout if has token and is invalid , not if token is null
         }
       });
   } catch (e) {
     console.error(`${api}: ${e || 'Error'}`);
   }
+  return null;
 };
 
 
@@ -164,7 +165,7 @@ export const _api_post = function _api_post(api: string, data: any, cb: any) {
   } catch (e) { // 401 or islogin error , then store.logout()
     console.error(`${api}: ${e}`);
 
-    if (e.status == 401 && _logoutCallback != null) { // err.status == 401
+    if (e.status === 401 && _logoutCallback != null) { // err.status == 401
       _logoutCallback(false); // only logout if has token and is invalid , not if token is null
     }
   }
