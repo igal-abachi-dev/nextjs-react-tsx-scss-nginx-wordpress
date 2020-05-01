@@ -72,6 +72,8 @@ https://ant.design/docs/react/introduce
 ## PWA
 https://github.com/shadowwalker/next-pwa
 
+https://github.com/hanford/next-offline
+
 ## more controls & plugins
 
 react-perfect-scrollbar
