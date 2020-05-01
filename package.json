@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "eslint --ext '.jsx,.tsx' ./**/* --quiet --fix"
+    "lint": "eslint --ext '.ts,.jsx,.tsx' ./**/*.{ts,jsx,tsx} --quiet --fix"
   },
   "dependencies": {
     "axios": "^0.19.2",

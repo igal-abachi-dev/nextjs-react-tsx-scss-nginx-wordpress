@@ -1,10 +1,16 @@
 **/*.js
-**/*.ts
 **/*.d.ts
 **/*.json
 **/*.svg
+**/*.ico
+**/*.css
+**/*.md
+**/*.scss
 node_modules/
 out
 .next
 .idea
 nginx
+coverage
+__snapshots__
+jest.config.js
