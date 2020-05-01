@@ -72,6 +72,8 @@ https://ant.design/docs/react/introduce
 ## PWA
 https://github.com/shadowwalker/next-pwa
 
+https://github.com/hanford/next-offline
+
 ## more controls & plugins
 
 react-perfect-scrollbar
@@ -125,10 +127,17 @@ Enzyme.configure({ adapter: new Adapter() });
 
 https://medium.com/@kjaer/setting-up-jest-and-enzyme-for-typescript-next-js-apps-ce383167643
 
+https://github.com/kulshekhar/ts-jest
 
 debugging:
 https://dev.to/vvo/5-steps-to-debugging-next-js-node-js-from-vscode-or-chrome-devtools-497o
 
+## linter
+
+	npm i -D babel-eslint eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
+  
+  eslint --init
+  
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
