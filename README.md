@@ -132,6 +132,12 @@ https://github.com/kulshekhar/ts-jest
 debugging:
 https://dev.to/vvo/5-steps-to-debugging-next-js-node-js-from-vscode-or-chrome-devtools-497o
 
+## linter
+
+	npm i -D babel-eslint eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
+  
+  eslint --init
+  
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
