@@ -1,0 +1,10 @@
+**/*.js
+**/*.ts
+**/*.d.ts
+**/*.json
+**/*.svg
+node_modules/
+out
+.next
+.idea
+nginx
