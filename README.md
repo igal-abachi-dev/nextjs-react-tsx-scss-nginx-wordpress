@@ -100,7 +100,6 @@ dexie
 
 dompurify
 
-dotenv + dotenv-expand
 
 react-popper + tippy.js
 
