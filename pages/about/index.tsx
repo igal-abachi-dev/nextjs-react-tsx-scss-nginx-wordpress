@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 
 import { GetServerSideProps, GetStaticProps } from 'next';
 import styles from './index.module.scss';
-import { initializeStore } from '../../state/root.store'
+import { initializeStore } from '../../state/root.store';
 
 const HelloComponent = dynamic(() => import('../../components/hello'));
 

@@ -18,7 +18,7 @@ export const Api_Addr = configProfider.getConfig().ApiUrl || 'http://127.0.0.1:3
 
 // swr_get(url,renderer)
 export const swr_get = function SwrGet(url: string, renderer: any): any {
-  return swr_wrap(url, _api_get, renderer); //use with nprogress npm?
+  return swr_wrap(url, _api_get, renderer); // use with nprogress npm?
 };
 export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): any {
   const { data, error } = useSWR(url, api ?? _api_get);
