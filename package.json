@@ -10,6 +10,12 @@
     "start": "next start",
     "lint": "eslint --ext '.ts,.jsx,.tsx' ./**/*.{ts,jsx,tsx} --quiet --fix"
   },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-wordpress/scss"
+    ],
+    "syntax": "scss"
+  },
   "dependencies": {
     "@types/lodash": "^4.14.150",
     "antd": "^4.2.0",
