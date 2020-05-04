@@ -153,7 +153,7 @@ or on best managed wordpress hosting: kinsta [30$/month]
 
 (better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
 
-but vultr hfc[24$/month] outperforms kinsta[might be used with cloudways]
+but vultr hfc[24$/month] outperforms kinsta[vultr might be used with cloudways]
 which need to be configured carefully and optimally 
 
 so best to put wordpress rest api on kista , and next.js UI on now.sh
