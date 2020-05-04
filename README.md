@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-## Next.js react with typesciprt tsx , scss style modules, supports PWA , for static use in nginx integrated with headless wordpress api[+elementor static rendering]
+## Next.js react with typescript tsx , scss style modules, supports PWA , for static use in nginx integrated with headless wordpress api[+elementor static rendering]
 
 uses Atomic UX design
 
@@ -40,6 +40,22 @@ then: npm run dev
 npm i axios
 
 npm i swr
+
+for server (in addition to wp-api) you can use:
+
+micro-server.js (node.js):
+https://github.com/igal-abachi-dev/micro-server.js
+
+or, these should be fast for http, [good for multi-threading too]:
+
+ asp.net core 3.1(c#),
+ 
+ tokio-minihttp (rust), [slower: nickle.rs / rocket.rs / actix.rs],
+ 
+ atreugo (go)
+ 
+ use ubuntu/lubuntu for best server performance , not windows
+ 
 
 ## 6) use mobx-state-tree , eventemitter3
 
@@ -153,7 +169,7 @@ or on best managed wordpress hosting: kinsta [30$/month]
 
 (better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
 
-but vultr hfc[24$/month] outperforms kinsta[might be used with cloudways]
+but vultr hfc[24$/month] outperforms kinsta[vultr might be used with cloudways]
 which need to be configured carefully and optimally 
 
 so best to put wordpress rest api on kista , and next.js UI on now.sh
