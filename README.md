@@ -41,6 +41,18 @@ npm i axios
 
 npm i swr
 
+for server you can use:
+micro-server.js (node.js):
+https://github.com/igal-abachi-dev/micro-server.js
+
+or, these should be fast for http, [good for multi-threading too]:
+ asp.net core 3.1(c#),
+ 
+ tokio-minihttp (rust), [slower: nickle.rs / rocket.rs / actix.rs],
+ 
+ atreugo (go)
+ 
+
 ## 6) use mobx-state-tree , eventemitter3
 
 npm i eventemitter3
