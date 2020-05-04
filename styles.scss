@@ -36,3 +36,36 @@ code {
 * {
 	box-sizing: border-box;
 }
+
+
+
+
+:global(.container) {
+	position: relative;
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+}
+
+@media (min-width: 576px) {
+	:global(.container) {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	:global(.container) {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	:global(.container) {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	:global(.container) {
+		max-width: 1900px;
+	}
+}
