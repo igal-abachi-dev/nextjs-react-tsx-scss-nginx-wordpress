@@ -137,6 +137,8 @@ https://dev.to/vvo/5-steps-to-debugging-next-js-node-js-from-vscode-or-chrome-de
   
   eslint --init
   
+  npm install --save-dev stylelint stylelint-scss stylelint-config-standard stylelint-config-wordpress --save-dev
+
 ## deploy site to free/fast static hosting: 
 zeit now.sh / google Firebase , free & fast
 
