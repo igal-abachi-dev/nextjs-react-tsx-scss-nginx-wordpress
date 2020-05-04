@@ -1,7 +1,7 @@
-//import styled from 'styled-components'
-//import { size } from 'polished'
-//import LoadingIndicator from './loading-indicator'
-//import ErrorIcon from './error-icon'
+// import styled from 'styled-components'
+// import { size } from 'polished'
+// import LoadingIndicator from './loading-indicator'
+// import ErrorIcon from './error-icon'
 //
 // const Container = styled.div`
 //   ${size('20em')}
@@ -18,8 +18,6 @@
 // const Title = styled.h1`
 //   text-align: center;
 // `
-
-
 
 
 //
