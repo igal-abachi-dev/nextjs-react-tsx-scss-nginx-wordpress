@@ -1,43 +1,36 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import _ from "lodash";
+import { Col, Container, Row } from 'react-bootstrap';
+import _ from 'lodash';
 
-const chunkPerGridRow: number = 3;//3-6
+const chunkPerGridRow: number = 3;// 3-6
 const usePerfectScroll: boolean = false;
 
-export default ({banner, items, itemRenderer}) => {
-    return (
-        <Container fluid={true}>
-            <Row>
-                <Col>
-                    {banner}
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    {/*make scrollable*/}
-                    <Container fluid={true}>
-                        {
-                            _.chunk(items, chunkPerGridRow).map((c) => {
-                                    return (
-                                        <Row>
-                                            {
-                                                c.map((item) => {
-                                                        return (
-                                                            <Col>
-                                                                {itemRenderer(item)}
-                                                            </Col>
-                                                        );
-                                                    }
-                                                )
+export default ({ banner, items, itemRenderer }) => (
+  <Container fluid>
+    <Row>
+      <Col>
+        {banner}
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        {/* make scrollable */}
+        <Container fluid>
+          {
+                            _.chunk(items, chunkPerGridRow).map((c) => (
+                              <Row>
+                                {
+                                                c.map((item) => (
+                                                  <Col>
+                                                    {itemRenderer(item)}
+                                                  </Col>
+                                                ))
                                             }
-                                        </Row>);
-                                }
-                            )
+                              </Row>
+                            ))
                         }
-                    </Container>
-                </Col>
-            </Row>
         </Container>
-    );
-};
+      </Col>
+    </Row>
+  </Container>
+);
