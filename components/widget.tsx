@@ -19,6 +19,9 @@
 //   text-align: center;
 // `
 
+export default function Hello2() {
+    return <p>Hello!</p>;
+}
 
 //
 // export default ({ children, error = false, loading = false, title = '' }) => {
