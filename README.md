@@ -54,6 +54,8 @@ or, these should be fast for http, [good for multi-threading too]:
  
  atreugo (go)
  
+ use ubuntu/lubuntu for best server performance , not windows
+ 
 
 ## 6) use mobx-state-tree , eventemitter3
 
