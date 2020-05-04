@@ -41,11 +41,13 @@ npm i axios
 
 npm i swr
 
-for server you can use:
+for server (in addition to wp-api) you can use:
+
 micro-server.js (node.js):
 https://github.com/igal-abachi-dev/micro-server.js
 
 or, these should be fast for http, [good for multi-threading too]:
+
  asp.net core 3.1(c#),
  
  tokio-minihttp (rust), [slower: nickle.rs / rocket.rs / actix.rs],
