@@ -1,0 +1,17 @@
+**/*.js
+**/*.ts
+**/*.jsx
+**/*.tsx
+**/*.d.ts
+**/*.json
+**/*.svg
+**/*.ico
+**/*.md
+node_modules/
+out
+.next
+.idea
+nginx
+coverage
+__snapshots__
+jest.config.js

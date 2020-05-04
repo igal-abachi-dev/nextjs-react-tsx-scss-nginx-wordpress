@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "eslint --ext '.ts,.jsx,.tsx' ./**/*.{ts,jsx,tsx} --quiet --fix"
+    "lint": "eslint --ext '.ts,.jsx,.tsx' ./**/*.{ts,jsx,tsx} --quiet --fix && npx stylelint './**/*.scss' --fix"
   },
   "stylelint": {
     "extends": [
