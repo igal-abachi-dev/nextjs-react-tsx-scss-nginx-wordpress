@@ -54,9 +54,13 @@ or, these should be fast for http, [good for multi-threading too]:
  
  Atreugo (go),
  
- Eclipse Vert.x (java , [es4x] for ES6 js),
+ Eclipse Vert.x (scala , best with [ES4x] wrap for ES6 js),
  
  OpenResty (NGINX + LuaJIT)
+ 
+ Kemal / Raze (Crystal)
+ 
+ Swoole HTTP (PHP 7.4)
   
  --
  
