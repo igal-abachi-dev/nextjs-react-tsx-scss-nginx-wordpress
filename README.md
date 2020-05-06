@@ -48,11 +48,17 @@ https://github.com/igal-abachi-dev/micro-server.js
 
 or, these should be fast for http, [good for multi-threading too]:
 
- asp.net core 3.1(c#),
+ ASP.NET Core 3.1 (c#) web api + CoreRT,
  
- tokio-minihttp (rust), [slower: nickle.rs / rocket.rs / actix.rs],
+ Tokio-MiniHTTP (rust), [slower: nickle.rs / saphir.rs / actix.rs],
  
- atreugo (go)
+ Atreugo (go),
+ 
+ Eclipse Vert.x (java , [es4x] for ES6 js),
+ 
+ OpenResty (NGINX + LuaJIT)
+  
+ --
  
  use ubuntu/lubuntu for best server performance , not windows
  
