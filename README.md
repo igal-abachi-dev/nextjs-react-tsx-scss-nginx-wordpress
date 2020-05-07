@@ -49,23 +49,25 @@ https://github.com/igal-abachi-dev/micro-server.js
 or, these should be fast for http, [good for multi-threading too]:
 ---
 
- Tokio-MiniHTTP (rust), [slower: nickle.rs / saphir.rs / actix.rs],
+ Tokio-MiniHTTP (rust AOT), [slower: nickle.rs / saphir.rs / actix.rs],
 
- ASP.NET Core 3.1 (c#) web api + CoreRT,
+ ASP.NET Core 3.1 (c# -> CIL bytecode ) web api + CoreRT (AOT),
  
- Atreugo (go),
+ Atreugo (go AOT),
  
- Eclipse Vert.x (scala , best with [ES4x] wrap for ES6 js),
+ Eclipse Vert.x (scala -> JVM bytecode , best with [ES4x] wrap for ES6 js),
  
  OpenResty (NGINX + LuaJIT 2.0)
  
- Kemal / Raze (Crystal)
+ Kemal / Raze (Crystal AOT)
  
- Swoole HTTP (PHP 8.0 JIT)
+ Swoole HTTP (PHP 8.0 JIT -> Zend VM Opcodes)
   
  --
  
  use ubuntu/lubuntu for best server performance , not windows
+ 
+ and use only languages with AOT compilation or JIT VM , not interpreted lang[like python/php < 7.4]
  
 
 ## 6) use mobx-state-tree , eventemitter3
