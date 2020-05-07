@@ -62,13 +62,17 @@ or, these should be fast for http, [good for multi-threading too]:
  Kemal / Raze (Crystal AOT)
  
  Swoole HTTP (PHP 8.0 JIT -> Zend VM Opcodes)
-  
+ 
  --
  
  use ubuntu/lubuntu for best server performance , not windows
  
  and use only languages with AOT compilation or JIT VM , not interpreted lang[like python/php < 7.4]
  
+probably: c# / rust / go / scala / crystal , are great for backend,
+it's best for it to be with static type checking / strong typed & object oriented language,
+that has true parallelism/Multi-threading , not just event-loop concurrency/green threads,
+probably c# / rust will be best for back-end
 
 ## 6) use mobx-state-tree , eventemitter3
 
