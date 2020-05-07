@@ -48,9 +48,9 @@ https://github.com/igal-abachi-dev/micro-server.js
 
 or, these should be fast for http, [good for multi-threading too]:
 
- ASP.NET Core 3.1 (c#) web api + CoreRT,
- 
  Tokio-MiniHTTP (rust), [slower: nickle.rs / saphir.rs / actix.rs],
+
+ ASP.NET Core 3.1 (c#) web api + CoreRT,
  
  Atreugo (go),
  
@@ -60,7 +60,7 @@ or, these should be fast for http, [good for multi-threading too]:
  
  Kemal / Raze (Crystal)
  
- Swoole HTTP (PHP 7.4)
+ Swoole HTTP (PHP 8.0 JIT)
   
  --
  
