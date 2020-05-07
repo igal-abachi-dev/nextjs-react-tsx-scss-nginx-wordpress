@@ -56,7 +56,7 @@ or, these should be fast for http, [good for multi-threading too]:
  
  Eclipse Vert.x (scala , best with [ES4x] wrap for ES6 js),
  
- OpenResty (NGINX + LuaJIT)
+ OpenResty (NGINX + LuaJIT 2.0)
  
  Kemal / Raze (Crystal)
  
