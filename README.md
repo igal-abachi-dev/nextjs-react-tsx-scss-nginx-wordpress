@@ -187,6 +187,7 @@ or on best managed wordpress hosting: kinsta [30$/month]
 (better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
 
 so probably the best & fastest managed wordpress hosting are:
+
 **Kinsta / Serverbolt.com / WPX Hosting / PRESSidium / Pantheon.io**
 
 
