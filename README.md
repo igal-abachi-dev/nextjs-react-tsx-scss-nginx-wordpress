@@ -185,6 +185,9 @@ on vultr hfc cloud [6$/month cheap]
 or on best managed wordpress hosting: kinsta [30$/month]
 
 (better then wp-engine, cloudways(vultr 6$) , costs more but very optimized & simple to manage)
+so probably the best & fastest managed wordpress hosting are:
+**Kinsta / Serverbolt.com / WPX Hosting / PRESSidium / Pantheon.io**
+
 
 but vultr hfc[24$/month] outperforms kinsta[vultr might be used with cloudways]
 which need to be configured carefully and optimally 
