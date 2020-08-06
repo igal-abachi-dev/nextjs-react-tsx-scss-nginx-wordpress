@@ -6,7 +6,8 @@ let _mode = 'dev';
 
 export type configEnv = ('dev' | 'prod' | 'qa');
 interface config {
-    ApiUrl: string; // "http://127.0.0.1:3000/api"
+  WP_Url: string; // "http://demo.wp-api.org/wp-json"
+  Api_Url: string; // "http://127.0.0.1:3000/api"
 }
 
 export const configProfider = {

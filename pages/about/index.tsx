@@ -9,7 +9,7 @@ import styles from './index.module.scss';
 import { initializeStore } from '../../state/root.store';
 
 const HelloComponent = dynamic(() => import('../../components/hello'));
-
+//const Recipes = lazy(() => import("./components/Recipes"));
 
 function HTTP_Get(url: string) {
   // const fetcher = url => fetch(url).then(r => r.json())

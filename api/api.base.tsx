@@ -13,13 +13,15 @@ Object.assign(axios.defaults, {
 
 
 configProfider.setMode('dev');
-export const Api_Addr = configProfider.getConfig().ApiUrl || 'http://127.0.0.1:3000/api'; // setExternal ip , by init() config , not localhost
+export const Api_Addr = configProfider.getConfig().Api_Url || 'http://127.0.0.1:3000/api'; // setExternal ip , by init() config , not localhost
 
 
 // swr_get(url,renderer)
 export const swr_get = function SwrGet(url: string, renderer: any): any {
   return swr_wrap(url, _api_get, renderer); // use with nprogress npm?
 };
+
+//https://sergiodxa.com/articles/type-states-client-side-app/
 export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): any {
   const { data, error } = useSWR(url, api ?? _api_get);
   /*

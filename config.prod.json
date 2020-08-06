@@ -1,3 +1,4 @@
 {
-  "ApiUrl": "http://127.0.0.1:3000/api",
+  "WP_Url": "http://demo.wp-api.org/wp-json",
+  "Api_Url": "http://127.0.0.1:3000/api"
 }

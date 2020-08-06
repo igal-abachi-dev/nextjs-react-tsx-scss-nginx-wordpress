@@ -108,6 +108,8 @@ https://github.com/shadowwalker/next-pwa
 
 https://github.com/hanford/next-offline
 
+https://github.com/cansin/next-with-workbox
+
 ## more controls & plugins
 
 react-perfect-scrollbar

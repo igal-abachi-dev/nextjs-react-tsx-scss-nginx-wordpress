@@ -1,5 +1,6 @@
 import { types, getParent } from 'mobx-state-tree';
 import axios from 'axios';
+import {wpPost} from "../api/api.types";
 
 export const Post = types.model('Post', {
   id: types.number,
@@ -10,16 +11,11 @@ export const Post = types.model('Post', {
 
 export const PostStore = types
   .model('posts', {
-    isLoading: false,
     posts: types.array(Post),
   })
   .actions((self: any) => ({
-    markLoading(loading) {
-      self.isLoading = loading;
-    },
-    updatePosts(data) {
+    setPosts(data:wpPost[]) {
       data.forEach((post) => {
-        if (typeof post.userId === 'string') return;
         self.posts.put(post);
       });
     },

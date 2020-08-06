@@ -3,6 +3,11 @@ import { types, applySnapshot } from 'mobx-state-tree';
 import { AuthStore } from './auth.store';
 import { PostStore } from './posts.store';
 
+//https://sergiodxa.com/articles/type-states-client-side-app/
+
+//Application-Level State (logged in user...): mobx state
+//api data cache: short term in SWR , long term in mobx state
+//ui state : local inside component
 let store;
 export const Store = types
   .model('root', {

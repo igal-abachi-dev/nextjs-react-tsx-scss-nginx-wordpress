@@ -7,11 +7,6 @@ export abstract class Events {
       // extras.isolateGlobalState();
 
       this.EE = new EventEmitter();
-
-      window.addEventListener('load', () => {
-        let eventArgs = {};
-        this.EE.emit('page-loaded', eventArgs);
-      });
     }
 
     public fireEvent(eventName: string, eventArgs: any) {
