@@ -41,7 +41,7 @@ export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): 
             return res.data;
         });
     */
-  console.log("swr_wrap: ",url, error, data, isValidating);
+  //console.log("swr_wrap: ",url, error, data, isValidating);
   if (error != null) return <li>failed to load</li>; // x icon
   if (data == null) return <li>loading...</li>;// spinner circle
   if (renderer) { return renderer(data); }
