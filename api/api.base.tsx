@@ -18,12 +18,22 @@ export const Api_Addr = configProfider.getConfig().Api_Url || 'http://127.0.0.1:
 
 // swr_get(url,renderer)
 export const swr_get = function SwrGet(url: string, renderer: any): any {
-  return swr_wrap(url, _api_get, renderer); // use with nprogress npm?
+  const http_get_prms = (url)=> {
+    let promise = new Promise(function(resolve, reject) {
+      const p2 = _api_get(url, null, (data: any) => {
+        console.log("swr_get: ",data);
+        resolve(data);
+      });
+      return promise;
+  });
+  }
+  return swr_wrap(url, http_get_prms, renderer); // use with nprogress npm?
 };
 
 //https://sergiodxa.com/articles/type-states-client-side-app/
 export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): any {
-  const { data, error } = useSWR(url, api ?? _api_get);
+  const { data, error , /*isValidating, mutate*/ } = useSWR(url, api ?? _api_get);
+  //https://swr.vercel.app/docs/options
   /*
       HTTP_Get(url: string){
     return axios.get(url)
@@ -106,7 +116,7 @@ export const _api_get = function _api_get(api: string, qparams: string, cb: any)
       qparams = `?${qparams}`; // map {p:v} to "p=v;"
     }
 
-    const url = api.toUpperCase().startsWith('http') ? api : Api_Addr + api + (qparams || '');
+    const url = api.toUpperCase().startsWith('HTTP') ? api : Api_Addr + api + (qparams || '');
     let getPromise;
     const config = {
       headers: {

@@ -7,6 +7,8 @@ import dynamic from 'next/dynamic';
 import { GetServerSideProps, GetStaticProps } from 'next';
 import styles from './index.module.scss';
 import { initializeStore } from '../../state/root.store';
+import {WordPress_Api} from "../../api/api.wp";
+
 
 const HelloComponent = dynamic(() => import('../../components/hello'));
 //const Recipes = lazy(() => import("./components/Recipes"));
@@ -38,6 +40,12 @@ export default function About({ posts }) {
                     (GetPosts())
                 }
       </ul>
+        <div>
+            {
+
+                (WordPress_Api.getPages(1))
+            }
+        </div>
     </div>
   );
 }

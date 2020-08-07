@@ -31,7 +31,11 @@ export const WordPress_Api = { // strong typed , read only , [admin is from word
             ));
         })
     }, getPages: (page: number = 1) => {
-        return swr_get(WP_Url_V2 + "pages" + QueryPostfix + page, (data: wpPage[]) => {
+
+        const url = WP_Url_V2 + "pages"+QueryPostfix + page;
+        //return _api_get(url, qry,(data: wpPage[]) => {
+
+        return swr_get(url, (data: wpPage[]) => {
             return data.map(post => (
                 <React.Fragment>
                     <h1>{post.title}</h1>

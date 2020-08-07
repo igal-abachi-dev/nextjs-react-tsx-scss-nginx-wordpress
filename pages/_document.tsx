@@ -1,5 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import ServiceWorker from './service-worker';
+//import ServiceWorker from './service-worker';
 
 export default class extends Document {
   // static getInitialProps({renderPage}) {
@@ -129,7 +129,7 @@ export default class extends Document {
         <body className="custom_class">
           <Main />
           <NextScript />
-          <ServiceWorker />
+          {/*<ServiceWorker />*/}
 
           {/* <div> */}
           {/*  <nav-header></nav-header> */}
