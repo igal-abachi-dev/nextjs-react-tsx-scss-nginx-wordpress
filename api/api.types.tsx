@@ -98,7 +98,7 @@ export interface wpPost extends wpTextContentObj {
     sticky: boolean;
     categories: number[];
     tags: number[];
-    author_info: wpAuthor;
+    author_info?: wpAuthor | null;
 }
 
 ////

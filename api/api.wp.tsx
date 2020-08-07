@@ -36,7 +36,7 @@ export const WordPress_Api = { // strong typed , read only , [admin is from word
                 return (
                     <React.Fragment>
                         <h1>{post.title.rendered}</h1>
-                        <p>{post.author_info.display_name} - {post.modified}</p>
+                        <p>{post.modified}</p>
                         <div dangerouslySetInnerHTML={{__html: sanitizedHtmlContent}}>
                         </div>
                         {/*    elementor content rendering support*/}
