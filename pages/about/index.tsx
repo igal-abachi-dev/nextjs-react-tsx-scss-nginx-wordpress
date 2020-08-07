@@ -37,7 +37,7 @@ export default function About({ posts }) {
         <div>
             {
 
-                (WordPress_Api.getPosts(1))
+               // (WordPress_Api.getPosts(1))
             }
         </div>
     </div>
