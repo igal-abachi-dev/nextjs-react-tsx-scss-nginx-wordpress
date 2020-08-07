@@ -18,21 +18,21 @@ export const Api_Addr = configProfider.getConfig().Api_Url || 'http://127.0.0.1:
 
 // swr_get(url,renderer)
 export const swr_get = function SwrGet(url: string, renderer: any): any {
-  const http_get_prms = (url)=> {
-    let promise = new Promise(function(resolve, reject) {
+  const http_get_prms = (url) => {
+    let promise = new Promise(function (resolve, reject) {
       const p2 = _api_get(url, null, (data: any) => {
-        console.log("swr_get: ",data);
+        console.log("swr_get: ", data);
         resolve(data);
       });
-      return promise;
-  });
+    });
+    return promise;
   }
   return swr_wrap(url, http_get_prms, renderer); // use with nprogress npm?
 };
 
 //https://sergiodxa.com/articles/type-states-client-side-app/
 export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): any {
-  const { data, error , /*isValidating, mutate*/ } = useSWR(url, api ?? _api_get);
+  const { data, error , isValidating /*, mutate*/ } = useSWR(url, api ?? _api_get);
   //https://swr.vercel.app/docs/options
   /*
       HTTP_Get(url: string){
@@ -41,7 +41,7 @@ export const swr_wrap = function SwrWrap(url: string, api: any, renderer: any): 
             return res.data;
         });
     */
-
+  console.log("swr_wrap: ",url, error, data, isValidating);
   if (error != null) return <li>failed to load</li>; // x icon
   if (data == null) return <li>loading...</li>;// spinner circle
   if (renderer) { return renderer(data); }
