@@ -34,10 +34,10 @@ export default function About({ posts }) {
       </Head>
 
 
-        <div>
+        <div style={{maxWidth:'700px'}}>
             {
 
-               // (WordPress_Api.getPosts(1))
+                (WordPress_Api.getPosts(1))
             }
         </div>
     </div>
