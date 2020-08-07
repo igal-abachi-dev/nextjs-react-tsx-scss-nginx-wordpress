@@ -28,22 +28,16 @@ export default function About({ posts }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App: About</title>
+        <title>Create Next App: Test</title>
         <meta name="Description" content="Create Next About" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HelloComponent />
-      <div>About:</div>
-      <ul>
-        {
-                    (GetPosts())
-                }
-      </ul>
+
         <div>
             {
 
-                (WordPress_Api.getPages(1))
+                (WordPress_Api.getPosts(1))
             }
         </div>
     </div>
